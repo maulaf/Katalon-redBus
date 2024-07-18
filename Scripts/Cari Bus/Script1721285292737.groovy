@@ -38,3 +38,10 @@ Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/option_first (semua lokasi)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Button - Besok'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - 1200-1500'), 0)
+
+Mobile.tap(findTestObject('Object Repository/btn_Lanjutkan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/btn_Lanjutkan'), 0)
+

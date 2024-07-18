@@ -49,22 +49,4 @@ class NewTestListener {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		Mobile.closeApplication()
 	}
-
-	/**
-	 * Executes before every test suite starts.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 */
-	@BeforeTestSuite
-	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-	}
-
-	/**
-	 * Executes after every test suite ends.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 */
-	@AfterTestSuite
-	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-	}
 }
